@@ -23,7 +23,7 @@ export function Navbar() {
           <Logo />
         </a>
 
-        <nav className="hidden items-center gap-1 rounded-full border border-white/10 bg-white/5 px-2 py-1.5 backdrop-blur md:flex">
+        <nav className="hidden items-center gap-1 rounded-full border border-white/10 bg-white/5 px-2 py-1.5 shadow-[0_8px_24px_-12px_rgba(0,0,0,0.6)] backdrop-blur md:flex">
           {LINKS.map((link) => (
             <a
               key={link.href}
@@ -39,7 +39,7 @@ export function Navbar() {
         <div className="hidden shrink-0 md:block">
           <a
             href="#contact"
-            className="inline-flex items-center rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-accent-foreground transition-transform active:-translate-y-px active:scale-[0.98]"
+            className="inline-flex items-center rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-accent-foreground shadow-[0_0_0_0_rgba(242,183,5,0)] transition-all duration-300 hover:shadow-[0_6px_24px_-6px_var(--accent)] active:-translate-y-px active:scale-[0.98]"
           >
             {CTA_LABEL}
           </a>

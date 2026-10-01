@@ -30,7 +30,7 @@ export function HeroCopy() {
     >
       <motion.h1
         variants={reduce ? undefined : item}
-        className="text-balance bg-gradient-to-r from-accent-from to-accent-to bg-clip-text text-5xl font-black leading-[1.05] tracking-tight text-transparent md:text-6xl"
+        className="text-balance bg-gradient-to-r from-accent-from to-accent-to bg-clip-text text-5xl font-black leading-[1.03] tracking-tight text-transparent md:text-6xl lg:text-7xl"
       >
         Senior talent for the AI era.
       </motion.h1>
@@ -49,13 +49,13 @@ export function HeroCopy() {
       >
         <a
           href="#contact"
-          className="inline-flex items-center rounded-full bg-accent px-6 py-3 text-sm font-medium text-accent-foreground transition-transform active:-translate-y-px active:scale-[0.98]"
+          className="inline-flex items-center rounded-full bg-accent px-6 py-3 text-sm font-medium text-accent-foreground shadow-[0_0_0_0_rgba(242,183,5,0)] transition-all duration-300 hover:shadow-[0_8px_30px_-6px_var(--accent)] active:-translate-y-px active:scale-[0.98]"
         >
           Book a call
         </a>
         <a
           href="#assessment"
-          className="inline-flex items-center rounded-full border border-accent/50 px-6 py-3 text-sm font-medium text-accent transition-colors hover:border-accent active:-translate-y-px active:scale-[0.98]"
+          className="inline-flex items-center rounded-full border border-accent/50 px-6 py-3 text-sm font-medium text-accent transition-all duration-300 hover:border-accent hover:bg-accent/10 active:-translate-y-px active:scale-[0.98]"
         >
           Take 5 minute assessment
         </a>
